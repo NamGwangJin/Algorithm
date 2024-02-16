@@ -1,4 +1,4 @@
 N = int(input())
-list = input().split()
+numbers = input().split()
 
-print(str(min(map(int, list))) + " " + str(max(map(int, list))))
+print(str(min(map(int, numbers))) + " " + str(max(map(int, numbers))))
